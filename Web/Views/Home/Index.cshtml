@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Version Sample</h1>
+    <p class="lead">This sample shows setting the git hash into the AssemblyInformationalVersion attribute during a build, and reading it at runtime.</p>
+    <p>Bonus: You can right-click on the assembly, choose properties, and see the version details here too.</p>
+    <p>Bonus: Because the regular version is &quot;1.0.*&quot;, and that gets seeded with the build date, we can discover the build date too.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Git Hash</h2>
+        <p>@Html.GitHash()</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Build Date</h2>
+        <p>@Html.BuildDate()</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Machine Name</h2>
+        <p>@Html.MachineName()</p>
+    </div>
+</div>

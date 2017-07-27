@@ -1,0 +1,17 @@
+*.sdf
+*.suo
+*.user
+_ReSharper.*
+packages
+[Oo]bj
+[Bb]in
+*/**/bin
+*/**/obj
+[Dd]ebug
+[Rr]elease
+[Tt]humbs.db
+.DS_Store*
+dist
+*.orig
+*.DotSettings
+.vs
